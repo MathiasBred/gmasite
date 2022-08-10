@@ -1,10 +1,10 @@
 const express = require('express');
 
 let app = express();
-const port = process.env.PORT || 1000;
-let server = app.listen('1000', listening);
+const port = process.env.port || 1000;
+let server = app.listen(port, listening);
 function listening(){
-    console.log('port 3000');
+    console.log(`on ${port}`);
 }
 
 app.use(express.static('index'));
