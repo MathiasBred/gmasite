@@ -6,7 +6,4 @@ let server = app.listen(port, listening);
 function listening(){
     console.log(`on ${port}`);
 }
-app.get('/',(req)=>{
-    req.send("Main Page");
-})
-app.use(express.static('index'));
+app.use(express.static('index/html'));
