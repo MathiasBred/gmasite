@@ -6,6 +6,10 @@
     font-family: comfort;
     src: url(fonts/Comfortaa-Regular.ttf);
 }
+@font-face{
+    font-family: script;
+    src: url(fonts/RogueScript-Regular.ttf);
+}
 #th{
     position: fixed;
     width: 100%;
@@ -166,7 +170,11 @@
     margin-top: 10vh;
 }
 #price{
+    font-family: comfort;
     text-align: center;
+}
+#loudly{
+    font-family: script;
 }
 .rbc1{
     text-align: center;
